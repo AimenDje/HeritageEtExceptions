@@ -3,7 +3,7 @@ public class Driver {
     public static void testTruck()throws VehicleException{
 
         Truck cityTruck = new Truck(new String[] {"sand", "traffic cones"}, 1001, "Ville de Montreal", "Valerie Plante", "City Hall"
-                , "Chevrolet", "Silverado", "MTL 001", 40000.f);
+                , "Chevrolet", "Silverado", "MTL 0001", 40000.f);
 
         Truck wesmountTruck = new Truck(new String[] {"sand", "traffic cones", "concrete", "trees", "flowers"}, 2001, "Westmount", "Michelle Desjardins", "75 Belvedere"
                 , "Ford", "XLT", "WMT 100", 27000.f);
